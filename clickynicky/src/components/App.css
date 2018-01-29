@@ -1,0 +1,22 @@
+.html {
+  background-color: darkgoldenrod
+}
+
+.Tile {
+  float: left;
+  width: 4rem;
+  height: 8rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid black;
+  text-align: center;
+  background-color: black;
+}
+
+.Tile--flipped {
+    background-color: black;
+  }
+
+.Tile--matched {
+    background-color: green;
+  }
